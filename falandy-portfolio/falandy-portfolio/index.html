@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="CV de Falandy JEAN">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Mon Portfolio Site Web</title>
+
+        
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/mobile.css" media="screen and (max-width: 768px)">
+        <link rel="stylesheet" href="CSS/tablette.css" media="screen and (min-width: 768px) and (max-width: 1000px)">
+
+
+
+        <link rel="shortcut icon" href="IMAGES/clavier.jpg">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <script src="https://kit.fontawesome.com/16d512547d.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="falandy">FALANDY JEAN</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#projet">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact1" id="contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="closemenu()"></i>
+                    </ul>
+                     
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+                </nav>
+                <div id="info">
+                    <h3>Ingénieur informaticien</h3><br>
+                    <h2 id="animation">Salut, je suis <span>Falandy</span><br>expert en Technologie <br>de<span> l'Information</span></h2>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------apropos---------------------------------------------------------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="IMAGES/foto.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sous-titre">A Propos de Moi</h1>
+                        <p>
+                            Salut, je m'appelle Falandy et je suis passionné par les technologies, les données et le web. 
+                            Je crois fermement en leur pouvoir de transformer notre monde. Avec chaque projet auquel je participe, je 
+                            m'efforce de repousser les limites et d'apporter des solutions innovantes.
+                            Mes compétences couvrent un large éventail de domaines, allant du développement web à l'analyse 
+                            de données en passant par la visualisation d'informations. J'ai acquis une solide expertise dans 
+                            la conception et le développement de sites web interactifs et réactifs, en utilisant des technologies
+                            telles que HTML, CSS et JavaScript.<br><br>
+                            Ce portfolio est un reflet de mon parcours et de mes compétences. J'y présente mes projets les plus 
+                            significatifs, mettant en évidence mes compétences techniques, ma créativité et ma capacité à résoudre 
+                            des problèmes. Si vous avez des questions ou si vous souhaitez discuter d'une collaboration potentielle, 
+                            n'hésitez pas à me contacter.<br>
+                            Merci de votre visite !
+                        </p>
+
+                        <div class="tab-titres">
+                            <p class="tab-links active-link" onclick="opentab('Competences')">Competences</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Formation')">Formation</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Competences">
+                            <ul>
+                                <li><span>Developpement web</span><br>Creation de site web/Application web</li>
+                                <li><span>Developpement Application</span><br>Creation Application Android/iOS</li>
+                                <li><span>Analyse de donnees</span><br>Traitement et analyse de donnees</li>
+                                <li><span>Langages de programmation</span><br>Javascript-Python</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023</span><br>Développeur chez Food For The Poor</li>
+                                <li><span>2022</span><br>Mentor a Santrova</li>
+                                <li><span>2022</span><br>Challenge sur le numerique</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Formation">
+                            <ul>
+                                <li><span>2023 a nos jours</span><br>Ecole Superieure d'Infotronique d'Haiti</li>
+                                <li><span>2022-2023</span><br>Coding Club Kafou</li>
+                                <li><span>2021-2022</span><br>Sololearn</li>
+                                <li><span>2021-2022</span><br>Open Clasroom</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------------------------------------------Services----------------------------------------------------------------------------------->
+        <div id="service">
+            <div class="container">
+                <h1 class="sous-titre">Mes Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Creation de Site Web</h2>
+                        <p>Je crée des sites web uniques et personnalisés en fonction des besoins et des objectifs de mes clients. Chaque site est conçu avec une attention particulière aux détails, à l'esthétique et à l'expérience utilisateur.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Creation de base de donnnes</h2>
+                       <p>Je conçois des bases de données bien structurées et optimisées pour répondre aux besoins spécifiques de votre entreprise. Je mets aussi en place des mesures de sécurité pour protéger vos bases de données contre les menaces potentielles. Cela peut inclure la gestion des droits d'accès, le cryptage des données sensibles et la surveillance continue des activités suspectes.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Creation d'Application Mobile</h2>
+                        <p>Je crée des applications mobiles personnalisées pour les plateformes Android et iOS. En travaillant en étroite collaboration avec vous, je transforme vos idées en applications mobiles fonctionnelles et esthétiques.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+ <!---------------------------------------------------------------------------Projets------------------------------------------------------------------------------------>
+ <div id="projet">
+    <div class="container">
+        <h1 class="sous-titre">Portfolio</h1>
+        <div class="Blog-list">
+
+            <div class="Blog">
+                <img src="IMAGES/groupjevidev.jpg">
+                <div class="layer">
+                    <h2>Site Web du Groupjevidev</h2>
+                </div>
+            </div>
+
+            <div class="Blog">
+                <img src="IMAGES/groupe.jpg">
+                <div class="layer">
+                    <h2>Site Web de AJIPRA</h2>
+                </div>
+            </div>
+
+            <div class="Blog">
+                <img src="IMAGES/riva.jpg">
+                <div class="layer">
+                    <h2>Site Web de Riva Coding Club</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>       
+<!------------------------------------------------------------------------------Blog------------------------------------------------------------------------------------->
+        <div id="blog">
+            <div class="container">
+                <h2 class="btn">Mon Blog</h2>
+                <div class="Blog-list">
+
+                    <div class="Blog">
+                        <img src="IMAGES/code.jpg">
+                        <h4>Programmation Web</h4>
+                        <div class="layer">
+                            <h2>Introduction à la programmation web</h2>
+                            <p>Dans cet article, nous allons explorer les bases de la programmation.</p>
+                            <a href="https://alexsoyes.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Blog">
+                        <img src="IMAGES/python.jpg">
+                        <h4>Programmation Python</h4>
+                        <div class="layer">
+                            <h2>Le langage Python</h2>
+                            <p>Dans cet article, nous allons explorer le langage python.</p>
+                            <a href="https://www.commentcoder.com/python/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Blog">
+                        <img src="IMAGES/langages.jpg">
+                        <h4>Langages populaires</h4>
+                        <div class="layer">
+                            <h2>Les langages de programmation populaires</h2>
+                            <p>Découvrez les langages de programmation les plus utilisés et leurs utilisations principales.</p>
+                            <a href="https://www.codeur.com/blog/top-langages-de-programmation/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Blog">
+                        <img src="IMAGES/site.jpg">
+                        <h4>Technologie</h4>
+                        <div class="layer">
+                            <h2>Les tendances technologiques à surveiller</h2>
+                            <p>Découvrez les dernières tendances technologiques telles que l'intelligence artificielle, l'Internet des objets et la réalité virtuelle.</p>
+                            <a href="https://e-sandaga.com/les-tendances-technologiques-a-surveiller/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Blog">
+                        <img src="IMAGES/clavier.jpg">
+                        <h4>Taper</h4>
+                        <div class="layer">
+                            <h2>Taper comme un pro</h2>
+                            <p><p>Dans cet article, nous allons vous donner des conseils pour améliorer votre vitesse et votre précision de frappe au clavier.</p></p>
+                            <a href="https://www.paperblog.fr/3944151/taper-plus-vite-au-clavier-comme-un-pro/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Blog">
+                        <img src="IMAGES/threads.jpg">
+                        <h4>Lancement de Threads</h4>
+                        <div class="layer">
+                            <h2>Meta lance son réseau social Threads</h2>
+                            <p>Dans cet article, nous allons vous parler un peu du tout nouveau media social lance par meta pour concurrencer Twitter</p>
+                            <a href="https://www.blogdumoderateur.com/threads-concurrent-twitter-lance-meta/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<!-------------------------------------------------------------------------------contact--------------------------------------------------------------------------------->
+        <div id="contact1">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sous-titre">Contactez-Moi</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Falandyjean@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+509 4664-6020</p>
+                        <div class="social-icons">
+                            <a href="www.facebook.com/falandyjean"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/jfand509?t=vwOmRBPei--nAi0624kKDg&s=08"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/falandyjean?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/falandy-jean-148b8a223"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="IMAGES/Mon CV.pdf" download class="btn btn2">Telecharger mon CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Nom" placeholder="Nom" required>
+                            <input type="text" name="Prenom" placeholder="Prenom" required>
+                            <input type="email" name="Email" placeholder="Adresse mail" required>
+                            <textarea name="Message"  rows="6" placeholder="Votre Message"></textarea>
+                            <button type="submit" class="btn btn2" onclick="alert('Message envoye avec succes!')">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button onclick="scrollToTop()" id="scrollToTopButton" title="Remonter"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <div class="copyright">
+            <p>Copyright © Falandy Jean 2023</p>
+        </div>
+       
+  
+     
+		<script src="JS/script.js"></script>
+    </body>
+
+</html>
