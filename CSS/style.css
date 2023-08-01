@@ -28,6 +28,7 @@ h1{
     background-repeat: no-repeat;
     background-position-y: 80%;
     background-blend-mode: multiply ;
+    margin-top:-40px;
 }
 
 .container{
