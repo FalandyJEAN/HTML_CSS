@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    background-color:white;
 }
 
 html{
@@ -11,8 +10,7 @@ html{
 }
 
 body{
-    background: black;
-    color: white;
+    background-color: white;
 }
 
 h1{
@@ -36,7 +34,6 @@ h1{
     border-radius: 10px;
     font-weight: bold;
     border: 1px solid #ff004f;
-    color: white !important;
 }
 
 .container ul #contact::after{
