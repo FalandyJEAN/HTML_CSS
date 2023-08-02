@@ -26,8 +26,7 @@ h1{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: 80%;
-    background-blend-mode: multiply ;
+    background-position-y: 200px;
 }
 
 .container{
