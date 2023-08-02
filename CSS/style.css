@@ -75,6 +75,10 @@ nav ul li a{
     position: relative;
 }
 
+nav li a #contact{
+    color:white;
+}
+
 nav ul li a::after{
     content: '';
     width: 0;
