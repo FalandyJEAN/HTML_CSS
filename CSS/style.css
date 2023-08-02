@@ -24,7 +24,7 @@ h1{
     background-image: url(../IMAGES/profile-cercle.png);
     background-size: cover;
     background-position: 80%;
-    background-position-x: 600px;
+    background-position-x: 300px;
     background-position-y: 600px;
 }
 .container{
@@ -71,7 +71,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     position: relative;
