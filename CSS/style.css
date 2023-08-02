@@ -352,7 +352,7 @@ nav ul li a:hover::after{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
+    color: #ff004f;
     transition: background 0.5s;
 }
 
