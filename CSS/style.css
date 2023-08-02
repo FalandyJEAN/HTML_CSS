@@ -26,7 +26,7 @@ h1{
     height: 100vh;
     background-image: url("../IMAGES/profile-pic.png");
     background-size: auto;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-position-x: 700px;
     background-blend-mode: multiply;
