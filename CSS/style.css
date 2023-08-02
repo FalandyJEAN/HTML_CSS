@@ -32,11 +32,12 @@ h1{
 }
 
 .container ul #contact{
-    background: black;
+    background-color: black;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
     border: 1px solid #ff004f;
+    color: white;
 }
 
 .container ul #contact::after{
@@ -425,6 +426,7 @@ form .btn2{
     cursor: pointer;
     background-color: black !important;
     border: 1px solid #ff004f;
+    color: white;
 }
 
 form .btn2::after{
