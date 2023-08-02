@@ -29,7 +29,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: 200px;
-    background-blend-mode: multiply;
+    background-position-x: 500px;
     background-blend-mode: multiply;
 }
 
