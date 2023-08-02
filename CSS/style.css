@@ -24,11 +24,10 @@ h1{
     height: 100vh;
     background-image: url("../IMAGES/profile-pic.png");
     background-size: auto;
-    background-position: 85%;
+    background-position: center;
     background-repeat: no-repeat;
     background-position-y: 80%;
     background-blend-mode: multiply ;
-    padding-top:-40px;
 }
 
 .container{
