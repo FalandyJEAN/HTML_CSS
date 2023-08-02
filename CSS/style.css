@@ -355,6 +355,7 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background: #ff004f;
+    color: white;
 }
 
 /*-----------------------------------------contact---------------------------------------*/
