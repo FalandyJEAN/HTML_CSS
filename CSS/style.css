@@ -22,7 +22,7 @@ h1{
     background-size: cover;
     background-position: 80%;
     background-position-x: 300px;
-    background-position-y: 600px;
+    background-position-y: 1000px;
 }
 .container{
     padding: 20px 10%;
@@ -396,6 +396,7 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    color: white;
 }
 
 .contact-right form{
