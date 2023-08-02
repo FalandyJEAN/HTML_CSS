@@ -20,10 +20,12 @@ h1{
     color:#ff004f !important;
 }
 /*---------------------------------------------------------------acceuil----------------------------------------------------------*/
-
-#header img{
-    margin-top: 40px;
-    margin-left:300px;
+#header{
+    background-image: url(../IMAGES/profile-cercle.png);
+    background-size: cover;
+    background-position: 80%;
+    background-position-x: 600px;
+    background-position-y: 600px;
 }
 .container{
     padding: 20px 10%;
