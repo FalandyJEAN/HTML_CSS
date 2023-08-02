@@ -143,7 +143,6 @@ nav ul li a:hover::after{
 /* -------------------------------------------------------------apropos----------------------------------------------------- */
 #about{
     padding: 2% 0;
-    color: white; 
     margin-top: 10px;
 }
 
@@ -437,6 +436,7 @@ form .btn2::after{
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+    color: white;
 }
 
 nav .fa-solid{
