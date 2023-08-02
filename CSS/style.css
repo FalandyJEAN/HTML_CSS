@@ -20,6 +20,7 @@ h1{
 #header{
     background-image: url(../IMAGES/profile-cercle.png);
     background-size: cover;
+    background-repeat: repeat;
     background-position: 80%;
     background-position-x: 300px;
     background-position-y: 1000px;
