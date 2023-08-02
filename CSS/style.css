@@ -28,7 +28,7 @@ h1{
     background-repeat: no-repeat;
     background-position-y: 80%;
     background-blend-mode: multiply ;
-    margin-top:-40px;
+    padding-top:-40px;
 }
 
 .container{
@@ -57,7 +57,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top:50px;
 }
 
 .falandy{
