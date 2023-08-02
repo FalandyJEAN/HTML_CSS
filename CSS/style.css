@@ -23,7 +23,7 @@ h1{
     background-image: url(../IMAGES/profile-pic.png);
     background-size: center;
     background-repeat: no-repeat;
-    background-position: 400px;
+    background-position: 80%;
     background-position-y:100% ;
     background-blend-mode: multiply;
 }
