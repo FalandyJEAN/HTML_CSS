@@ -314,6 +314,7 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    color: white;
 }
 
 .Blog:hover img{
