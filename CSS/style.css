@@ -42,10 +42,6 @@ h1{
     background: none;
 }
 
-.container ul #contact:hover{
-    width: 50px;
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -243,7 +239,8 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background: #262626;
+    background: gray;
+    color: white;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -457,7 +454,7 @@ nav .fa-solid{
     bottom: 80px;
     right: 20px;
     background-color: #ff004f;
-    color: #262626;
+    color:white;
     border: none;
     border-radius: 50%;
     cursor: pointer;
