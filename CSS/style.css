@@ -18,12 +18,12 @@ h1{
 }
 /*---------------------------------------------------------------acceuil----------------------------------------------------------*/
 #header{
-    width: 80%;
+    width: 100%;
     height: 100vh;
     background-image: url(../IMAGES/profile-pic.png);
     background-size: center;
     background-repeat: no-repeat;
-    background-position: 85%;
+    background-position: 90%;
     background-blend-mode: multiply;
 }
 .container{
