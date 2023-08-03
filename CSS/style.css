@@ -263,7 +263,7 @@ nav ul li a:hover::after{
 .services-list div a{
     text-decoration: none;
     color: #ff004f;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -313,7 +313,7 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding:0 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     transition: height 0.5s;
     color: white;
 }
