@@ -25,6 +25,7 @@ h1{
     background-repeat: no-repeat;
     background-position: 90%;
     background-blend-mode: multiply;
+    background-position-x:40px;
 }
 .container{
     padding: 20px 10%;
