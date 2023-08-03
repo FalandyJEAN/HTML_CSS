@@ -387,7 +387,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color:#ababab;
+    color:#423e3e;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -434,7 +434,7 @@ form .btn2::after{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 28px 0;
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
@@ -445,7 +445,6 @@ nav .fa-solid{
     display: none;
 }
 
-/* Ajouter ce style pour le bouton */
 #scrollToTopButton {
     display: none;
     position: fixed;
