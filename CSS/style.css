@@ -260,7 +260,7 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-.services-list div a{
+.services-list div p{
     text-decoration: none;
     color: #ff004f;
     font-size: 12px;
