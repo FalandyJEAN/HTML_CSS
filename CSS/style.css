@@ -42,6 +42,9 @@ h1{
     background: none;
 }
 
+.container ul #contact:hover{
+    width: 50px;
+}
 
 nav{
     display: flex;
