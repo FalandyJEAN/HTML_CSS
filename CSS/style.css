@@ -31,11 +31,10 @@ h1{
 }
 
 .container ul #contact{
-    background-color: black;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
-    border: 1px solid #ff004f;
+    background: #ff004f;
     color:white;
 }
 
@@ -43,10 +42,6 @@ h1{
     background: none;
 }
 
-.container ul #contact:hover{
-    background: #ff004f;
-    color: white;
-}
 
 nav{
     display: flex;
