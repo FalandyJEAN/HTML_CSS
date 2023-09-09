@@ -14,7 +14,7 @@ body{
 }
 
 h1{
-    color:#2596be !important;
+    color:#095bf5 !important;
 }
 /*---------------------------------------------------------------acceuil----------------------------------------------------------*/
 #header{
@@ -25,7 +25,7 @@ h1{
     background-repeat: no-repeat;
     background-position: 90%;
     background-blend-mode: multiply;
-    background-position-y:50px;
+    background-position-y:100px;
 }
 .container{
     padding: 20px 10%;
@@ -35,7 +35,7 @@ h1{
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
-    background: #2596be;
+    background: #095bf5;
     color:white;
 }
 
@@ -51,7 +51,7 @@ nav{
 }
 
 .falandy{
-    color: #2596be;
+    color: #095bf5;
     font-weight: bolder;
 }
 
@@ -80,7 +80,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #095bf5;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
 }
 
 #info span{
-    color:#2596be
+    color:#095bf5
 }
 
 #info h3{
@@ -190,7 +190,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #2596be;
+    background: #095bf5;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -207,7 +207,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #2596be;
+    color: #095bf5;
     font-size: 14px;
 }
 
@@ -262,14 +262,14 @@ nav ul li a:hover::after{
 
 .services-list div a{
     text-decoration: none;
-    color: #2596be;
+    color: #095bf5;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
 }
 
 .services-list div:hover{
-    background: #2596be;
+    background: #095bf5;
     transform: translateY(-30px);
 }
 /*--------------------------------------------------Blog----------------------------------------------------*/
@@ -287,7 +287,7 @@ nav ul li a:hover::after{
 }
 
 .Blog h4{
-    color:#2596be;
+    color:#095bf5;
 }
 
 .Blog img{
@@ -301,7 +301,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6),#2596be);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),#095bf5);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -329,7 +329,7 @@ nav ul li a:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color: #2596be;
+    color: #095bf5;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -348,16 +348,16 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #2596be;
+    border: 1px solid #095bf5;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #2596be;
+    color: #095bf5;
     transition: background 0.5s;
 }
 
 .btn:hover{
-    background: #2596be;
+    background: #095bf5;
     color: white;
 }
 
@@ -375,7 +375,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: #2596be;
+    color: #095bf5;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -394,13 +394,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color: #2596be;
+    color: #095bf5;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #2596be;
+    background: #095bf5;
     color: white;
 }
 
@@ -428,7 +428,7 @@ form .btn2{
 }
 
 form .btn2::after{
-    background: #2596be;
+    background: #095bf5;
     font-size: 20px;
 }
 
@@ -451,7 +451,7 @@ nav .fa-solid{
     position: fixed;
     bottom: 80px;
     right: 20px;
-    background-color: #2596be;
+    background-color: #095bf5;
     color:white;
     border: none;
     border-radius: 50%;
@@ -462,6 +462,6 @@ nav .fa-solid{
   }
   
   #scrollToTopButton:hover {
-    background-color: #2596be;
+    background-color: #095bf5;
   }
   
