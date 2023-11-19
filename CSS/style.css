@@ -464,4 +464,11 @@ nav .fa-solid{
   #scrollToTopButton:hover {
     background-color: #095bf5;
   }
-  
+
+  ::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#095bf5;
+}
