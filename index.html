@@ -7,67 +7,85 @@
         
         <title>Mon Portfolio Site Web</title>
 
-        
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/mobile.css" media="screen and (max-width: 768px)">
         <link rel="stylesheet" href="CSS/tablette.css" media="screen and (min-width: 768px) and (max-width: 1000px)">
-
+    
 
 
         <link rel="shortcut icon" href="IMAGES/letterF.png">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
+
+        <script src="JS/bootstrap.js"></script>
         <script src="https://kit.fontawesome.com/16d512547d.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <div id="header">
             <div class="container">
-                <nav>
-                    <h1 class="falandy">FALANDY JEAN</h1>
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#service">Services</a></li>
-                        <li><a href="#projet">Portfolio</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact1" id="contact">Contact</a></li>
-                        <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="closemenu()"></i>
-                    </ul>
-                     
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand falandy" href="#">FALANDY JEAN</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#header">Home <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projet">Portfolio</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>-->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact1" id="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
+                
                 <div id="info">
-                    <h3>Ingénieur informaticien</h3><br>
-                    <h2 id="animation">Salut, je suis <span>Falandy</span><br>expert en Technologie <br>de<span> l'Information</span></h2>
+                    <h3>Développeur web</h3>
+                    <h2 id="animation">Salut, je suis <span>Falandy</span></h2>
+                    <p>Explorateur du monde numérique, passionné par la <span>Tech</span> et la <span>création.</span></p>
                 </div>
             </div>
         </div>
 <!------------------------------------------------------------------------------apropos---------------------------------------------------------------------------------->
-        <div id="about">
+        <div id="about" class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="about-col-1">
-                        <img src="IMAGES/foto.jpg">
+                    <div class="col-md-6">
+                        <img src="IMAGES/foto.jpg" class="img-fluid rounded" alt="Photo de profil">
                     </div>
-                    <div class="about-col-2">
-                        <h1 class="sous-titre">A Propos de Moi</h1>
+                    <div class="col-md-6">
+                        <h1 class="sous-titre mt-4 mt-md-0">A Propos de Moi</h1>
                         <p>
-                            Salut, je m'appelle Falandy et je suis passionné par les technologies, les données et le web. 
-                            Je crois fermement en leur pouvoir de transformer notre monde. Avec chaque projet auquel je participe, je 
-                            m'efforce de repousser les limites et d'apporter des solutions innovantes.
-                            Mes compétences couvrent un large éventail de domaines, allant du développement web à l'analyse 
-                            de données en passant par la visualisation d'informations. J'ai acquis une solide expertise dans 
-                            la conception et le développement de sites web interactifs et réactifs, en utilisant des technologies
-                            telles que HTML, CSS et JavaScript.<br><br>
-                            Ce portfolio est un reflet de mon parcours et de mes compétences. J'y présente mes projets les plus 
-                            significatifs, mettant en évidence mes compétences techniques, ma créativité et ma capacité à résoudre 
-                            des problèmes. Si vous avez des questions ou si vous souhaitez discuter d'une collaboration potentielle, 
-                            n'hésitez pas à me contacter.<br>
-                            Merci de votre visite !
+                            Salut, je suis Falandy, passionné par le développement web et l'utilisation de plateformes no code. Je suis convaincu du pouvoir transformateur de la technologie. 
+                            À travers mes projets, je m'efforce de repousser les limites pour créer des solutions innovantes. <br>
+
+                            Spécialisé dans la conception et le développement de sites web interactifs, j'utilise des technologies 
+                            telles que HTML, CSS et JavaScript. Bien que mon portfolio ne comporte pas actuellement de projets spécifiques, 
+                            il reflète mon engagement et mes compétences techniques. <br>
+
+                            Si vous avez des questions ou souhaitez discuter d'une collaboration, n'hésitez pas à me contacter. 
+                            Merci de visiter mon portfolio !
                         </p>
 
+        
+                
                         <div class="tab-titres">
                             <p class="tab-links active-link" onclick="opentab('Competences')">Competences</p>
                             <p class="tab-links" onclick="opentab('Experience')">Experience</p>
@@ -75,17 +93,19 @@
                         </div>
                         <div class="tab-contents active-tab" id="Competences">
                             <ul>
-                                <li><span>Developpement web</span><br>Creation de site web/Application web</li>
-                                <li><span>Developpement Application</span><br>Creation Application Android/iOS</li>
-                                <li><span>Analyse de donnees</span><br>Traitement et analyse de donnees</li>
-                                <li><span>Langages de programmation</span><br>Javascript-Python</li>
+                                <li><span>Developpement web</span><br>Creation de site web</li>
+                                <li><span>E-commerce</span><br>Creation de site internet avec Shopify</li>
+                                <li><span>Microsoft</span><br>Bonne connaissance d'Excel</li>
+                                <li><span>Langages de programmation</span><br>HTML/CSS - Javascript - C++ - Python</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="Experience">
                             <ul>
-                                <li><span>2023</span><br>Développeur chez Food For The Poor</li>
+                                <li><span>2023</span><br>Coordonnateur Startup Hult Prize ESIH </li>
+                                <li><span>2023</span><br>Stage Assistant information a Food For The Poor Haiti</li>
+                                <li><span>2022</span><br>Coordonnateur adjoint department langue <a href="https://santrova.org">Santrova</a></li>
                                 <li><span>2022</span><br>Mentor a Santrova</li>
-                                <li><span>2022</span><br>Challenge sur le numerique</li>
+                                
                             </ul>
                         </div>
                         <div class="tab-contents" id="Formation">
@@ -97,9 +117,11 @@
                             </ul>
                         </div>
                     </div>
+                      
                 </div>
             </div>
         </div>
+
 <!----------------------------------------------------------------------------Services----------------------------------------------------------------------------------->
         <div id="service">
             <div class="container">
@@ -112,12 +134,13 @@
                     </div>
 
                     <div>
-                        <i class="fa-solid fa-database"></i>
-                        <h2>Creation de base de donnnes</h2>
-                       <p>Je conçois des bases de données bien structurées et optimisées pour répondre aux besoins spécifiques de votre entreprise. Je mets aussi en place des mesures de sécurité pour protéger vos bases de données contre les menaces potentielles. Cela peut inclure la gestion des droits d'accès, le cryptage des données sensibles et la surveillance continue des activités suspectes.</p>
+                        <i class="fa-solid fa-check"></i>
+                        <h2>Optimisation des Performances Web</h2>
+                        <p>Mon expertise réside dans l'optimisation des performances de votre présence en ligne. Je m'engage à accélérer le chargement de vos pages web, à améliorer l'efficacité de vos applications et à garantir une expérience utilisateur fluide. Cela implique l'analyse approfondie des performances, la mise en cache intelligente, et l'optimisation du code pour des temps de chargement rapides, contribuant ainsi à fidéliser vos utilisateurs.</p>
                     </div>
+                    
 
-                    <div>
+                    <div hidden>
                         <i class="fa-brands fa-app-store"></i>
                         <h2>Creation d'Application Mobile</h2>
                         <p>Je crée des applications mobiles personnalisées pour les plateformes Android et iOS. En travaillant en étroite collaboration avec vous, je transforme vos idées en applications mobiles fonctionnelles et esthétiques.</p>
@@ -130,26 +153,30 @@
  <div id="projet">
     <div class="container">
         <h1 class="sous-titre">Portfolio</h1>
-        <div class="Blog-list">
+        <h3>Tout ces projet sont en construction!!!</h3>
 
+        <div class="Blog-list">
             <div class="Blog">
-                <img src="IMAGES/groupjevidev.jpg">
+                <img src="IMAGES/zile.jpg">
                 <div class="layer">
-                    <h2>Site Web du Groupjevidev</h2>
+                    <h2>Zile Ayiti</h2>
+                    <a href="https://falandyjean.github.io/ZileAyiti/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="Blog">
-                <img src="IMAGES/groupe.jpg">
+                <img src="IMAGES/pseudo.png" alt="interface de mon generateur de pseudo">
                 <div class="layer">
-                    <h2>Site Web de AJIPRA</h2>
+                    <h2>Un Generateur de Pseudonyme a</h2>
+                    <a href="https://falandyjean.github.io/GenerateurPseudo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
             <div class="Blog">
                 <img src="IMAGES/riva.jpg">
                 <div class="layer">
-                    <h2>Site Web de Riva Coding Club</h2>
+                    <h2>FineTech</h2>
+                    <a href="https://falandyjean.github.io/FineTech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
@@ -157,9 +184,9 @@
     </div>
 </div>       
 <!------------------------------------------------------------------------------Blog------------------------------------------------------------------------------------->
-        <div id="blog">
+        <div id="blog" hidden>
             <div class="container">
-                <h2 class="btn">Mon Blog</h2>
+            <h1 class="sous-titre">Blog</h1>
                 <div class="Blog-list">
 
                     <div class="Blog">
@@ -232,16 +259,14 @@
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sous-titre">Contactez-Moi</h1>
-                        <p><i class="fa-solid fa-paper-plane"></i>Falandyjean@gmail.com</p>
+                        <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:falandyjean@gmail.com">Falandyjean@gmail.com</a></p>
                         <p><i class="fa-solid fa-square-phone"></i>+509 4664-6020</p>
                         <div class="social-icons">
                             <a href="www.facebook.com/falandyjean"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://twitter.com/jfand509?t=vwOmRBPei--nAi0624kKDg&s=08"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://instagram.com/falandyjean?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/falandy-jean-148b8a223"><i class="fa-brands fa-linkedin"></i></a>
                             <a href="Https://www.github.com/FalandyJEAN"><i class="fa-brands fa-github"></i></a>
                         </div>
-                        <a href="IMAGES/Mon CV.pdf" download class="btn btn2">Telecharger mon CV</a>
+                        <a href="IMAGES/Cv1-Falandy.pdf" download class="btn btn2">Telecharger mon CV</a>
                     </div>
                     <div class="contact-right">
                         <form name="submit-to-google-sheet">

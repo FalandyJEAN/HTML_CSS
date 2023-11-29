@@ -12,13 +12,9 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab")
 }
 
-function openmenu() {
-    sideMenu.style.right = "0";
-  }
-  
-  function closemenu() {
-    sideMenu.style.right = "-250px";
-  }
+// Modifiez votre fonction openmenu pour que la largeur soit "100vw"
+
+
 
 
 const scriptURL ="https://script.google.com/macros/s/AKfycbzx9I7ZTvcytyQj62-mdyRasVqw5biT3kOJDEGWNeAWpUM74r7yLSnhHzWEiZy2T45fCw/exec"
