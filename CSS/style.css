@@ -209,6 +209,26 @@ nav ul li a:hover::after{
     color: #5fb4e8;
     transition: all 0.2s ease-in-out;
   }
+  /*---------------------------Style pour la section Expérience------------------------------------- */
+#experience {
+    padding: 5%;
+}
+
+/* Style pour les éléments d'expérience */
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 /* --------------------------------------------------------services-------------------------------------------------- */
 #service{
     padding: 20px 0;
