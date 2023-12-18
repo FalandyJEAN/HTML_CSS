@@ -19,7 +19,10 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
     <script src="https://kit.fontawesome.com/16d512547d.js" crossorigin="anonymous"></script>
 </head>
 
@@ -93,6 +96,50 @@
                 </div>
             </div>
         </div>
+
+ <!---------------------------------------------------------------------------Competences------------------------------------------------------------------------------------>
+        <div class="resume-section p-3 p-lg-5 " id="skills" data-aos='fade-up'>
+            <h1 class="sous-titre">Technologies and Skills</h1>
+            <div class="my-auto">
+            <ul class="list-inline list-icons mb-4">
+                <li class="list-inline-item">
+                <i class="devicon-html5-plain" title="HTML5"></i>
+                </li>
+                <li class="list-inline-item">
+                <i class="devicon-css3-plain" title="CSS3"></i>
+                </li>
+                <li class="list-inline-item">
+                <i class="devicon-javascript-plain" title="JavaScript"></i>
+                </li>
+
+                <li class="list-inline-item">
+                <i class="devicon-bootstrap-plain" title="Bootstrap 4"></i>
+                </li>
+
+                <li class="list-inline-item">
+                <i class="devicon-github-plain" title="Github"></i>
+                </li>
+            </ul>
+
+            <div id="skill-bars">
+                <p class="text-left">HTML5 - 98%</p>
+
+                <div class="progress mb-2" style="height: 1.5rem;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+                </div>
+                <p class="text-left">CSS3 - 92%</p>
+
+                <div class="progress mb-2" style="height: 1.5rem;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%"></div>
+                </div>
+                <p class="text-left">JavaScript - 88%</p>
+
+                <div class="progress mb-2" style="height: 1.5rem;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+                </div>
+               
+            </div>
+        </div>
 <!----------------------------------------------------------------------------Services----------------------------------------------------------------------------------->
         <div id="service">
             <div class="container">
@@ -120,10 +167,11 @@
                 </div>
             </div>
         </div>
+
  <!---------------------------------------------------------------------------Projets------------------------------------------------------------------------------------>
         <div id="projet">
             <div class="container">
-                <h1 class="sous-titre data-aos='fade-up'">Portfolio</h1>
+                <h1 class="sous-titre" data-aos='fade-up'>Portfolio</h1>
                 <h3 data-aos='fade-up'>Tout ces projet sont en construction!!!</h3>
 
                 <div class="Blog-list">
@@ -158,15 +206,6 @@
                             <a href="https://falandyjean.github.io/Etch-A-Sketch/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
-
-                    <div class="Blog">
-                        <img src="IMAGES/riva.jpg">
-                        <div class="layer">
-                            <h2>FineTech</h2>
-                            <a href="https://falandyjean.github.io/FineTech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>       
@@ -174,7 +213,7 @@
         <div id="blog" hidden>
             <div class="container">
             <h1 class="sous-titre">Blog</h1>
-                <div class="Blog-list data-aos='fade-up'">
+                <div class="Blog-list" data-aos='fade-up'>
 
                     <div class="Blog">
                         <img src="IMAGES/code.jpg">
@@ -244,8 +283,8 @@
         <div id="contact1">
             <div class="container">
                 <div class="row">
-                    <div class="contact-left">
-                        <h1 class="sous-titre data-aos='fade-up'">Contactez-Moi</h1>
+                    <div class="contact-left" data-aos='fade-up'>
+                        <h1 class="sous-titre">Contactez-Moi</h1>
                         <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:falandyjean@gmail.com">Falandyjean@gmail.com</a></p>
                         <p><i class="fa-solid fa-square-phone"></i>+509 4664-6020</p>
                         <div class="social-icons">
@@ -255,7 +294,7 @@
                         </div>
                         <a href="IMAGES/Cv1-Falandy.pdf" download class="btn btn2">Telecharger mon CV</a>
                     </div>
-                    <div class="contact-right">
+                    <div class="contact-right" data-aos='fade-up'>
                         <form name="submit-to-google-sheet">
                             <input type="text" name="Nom" placeholder="Nom" required>
                             <input type="text" name="Prenom" placeholder="Prenom" required>
@@ -267,6 +306,7 @@
                 </div>
             </div>
         </div>
+    </div>
         
         <button onclick="scrollToTop()" id="scrollToTopButton" title="Remonter"><i class="fa-solid fa-arrow-up"></i></button>
 

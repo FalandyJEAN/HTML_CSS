@@ -166,23 +166,49 @@ nav ul li a:hover::after{
 .sous-titre{
     font-size: 60px;
     font-weight: 600;
+    text-align: center;
 }
 
-.tab-titres{
-    display: flex;
-    margin: 20px 0 40px;
-}
+/*----------------------------------------------------competences-------------------------------------------------------*/
 
-.tab-links{
-   margin-right: 50px;
-   font-size: 18px;
-   font-weight: 500;
-   cursor: pointer; 
-   position: relative;
-}
+.resume-section {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    font-family: "Poppins", sans-serif;
+  }
 
-
-
+  .list-inline {
+    list-style: none;
+  }
+  
+  .list-icons {
+    font-size: 2.5rem;
+  }
+  
+  #skill-bars {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .progress-bar,
+  .btn {
+    background-image: linear-gradient(
+      to right,
+      #bfefff,
+      #8dd2f3,
+      #5fb4e8,
+      #3594dc,
+      #1874cd
+    );
+  }
+  
+  .fa-user-tag,
+  .blue,
+  .list-inline-item i:hover {
+    color: #5fb4e8;
+    transition: all 0.2s ease-in-out;
+  }
 /* --------------------------------------------------------services-------------------------------------------------- */
 #service{
     padding: 20px 0;
@@ -238,15 +264,20 @@ nav ul li a:hover::after{
 /*--------------------------------------------------Blog----------------------------------------------------*/
 .Blog-list{
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .Blog{
+    display: grid;
     border-radius: 10px;
     position:relative;
     overflow: hidden;
+    align-self: center;
 }
 
 .Blog h4{
