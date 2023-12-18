@@ -156,18 +156,11 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 
-.about-col-1{
-    flex-basis: 35%;
-}
-
-.about-col-1 img{
-    width: 450px;
-    border-radius: 15px;
-    height: 550px;
-}
-
-.about-col-2{
-    flex-basis: 60%;
+.col-md-6 img{
+    margin-top: 10px;
+    height: 310px;
+    width: 350px;
+    right: 0;
 }
 
 .sous-titre{
@@ -188,38 +181,7 @@ nav ul li a:hover::after{
    position: relative;
 }
 
-.tab-links::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #095bf5;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
 
-.tab-links.active-link::after{
-    width: 50%; 
-}
-
-.tab-contents ul li{
-    list-style: none;
-    margin: 10px 0;
-}
-
-.tab-contents ul li span{
-    color: #095bf5;
-    font-size: 14px;
-}
-
-.tab-contents{
-    display: none;
-}
-
-.tab-contents.active-tab{
-    display: block;
-}
 
 /* --------------------------------------------------------services-------------------------------------------------- */
 #service{
@@ -274,6 +236,7 @@ nav ul li a:hover::after{
     background: #095bf5;
     transform: translateY(-30px);
 }
+
 /*--------------------------------------------------Blog----------------------------------------------------*/
 .Blog-list{
     display: grid;
@@ -452,6 +415,8 @@ nav .fa-solid{
 
 #scrollToTopButton {
     display: none;
+    width: 50px;
+    height: 50px;
     position: fixed;
     bottom: 80px;
     right: 20px;

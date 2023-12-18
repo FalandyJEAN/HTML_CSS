@@ -1,65 +1,69 @@
 /* Styles pour écrans de taille moyenne (tablettes) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    #header {
-        background-position-y: 50%;
-    }
 
-    .container {
-        padding: 30px 50px;
-    }
+#header {
+    background-image: url(none);
+}
 
-    #info {
-        margin-top: 10%;
-        padding-left: 20px;
-        padding-bottom: 10px;
-    }
+.container {
+    padding: 30px 50px;
+}
 
-    .about-col-1 img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-top: 20px;
-    }
+div #info {
+    margin-top: 50%;
+    font-size: 15px !important;
+    width: 100%;
+    text-align: center;
+}
 
-    .about-col-2 {
-        margin-left: 20px;
-    }
+.col-md-6{
+    text-align: justify;
+}
 
-    .tab-titres {
-        margin-right: 80px;
-    }
+.col-md-6 img{
+    margin-top: 10px;
+    height: 500px;
+}
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .services-list {
-        margin: 20px 10px;
-        grid-gap: 20px;
-    }
+.services-list div{
+    height: 400px;
+}
+.Blog-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .Blog-list {
-        grid-gap: 20px;
-    }
+.Blog{
+    width: 100%;
+}
 
-    .btn {
-        margin: 30px auto;
-        padding: 12px 40px;
-    }
+.btn {
+    margin: 30px auto;
+    padding: 12px 40px;
+}
 
-    .contact-left p {
-        margin-top: 20px;
-    }
+#contact1 .row{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
 
-    .social-icons {
-        margin-top: 20px;
-    }
+.social-icons {
+    margin-top: 20px;
+}
 
-    .btn.btn2 {
-        padding: 12px 25px;
-    }
+.btn.btn2 {
+    padding: 12px 25px;
+}
 
-    .copyright {
-        padding: 15px 0;
-    }
+.copyright {
+    padding: 15px 0;
+}
 
-    #scrollToTopButton {
-        bottom: 20px;
-    }
+#scrollToTopButton {
+    bottom: 20px;
 }
