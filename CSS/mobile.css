@@ -85,6 +85,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a::after{
+    background: white;
+    border-bottom: 2px solid white;
+
+}
+
 .navbar-header {
     display: flex;
     flex-direction: column;

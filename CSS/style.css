@@ -198,9 +198,6 @@ nav ul li a:hover::after{
 
 .services-list{
     display: flex;
-    /*grid-template-columns: repeat(2, minmax(250px, 1fr));/*3 modifie pour le moment en 2*/
-    /*grid-gap: 40px;
-    margin-top: 50px;*/
     gap: 40px;
 }
 
