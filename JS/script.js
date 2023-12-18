@@ -49,30 +49,39 @@ window.addEventListener("scroll", function() {
 })
   
 document.addEventListener('DOMContentLoaded', function () {
-  var navbarToggler = document.querySelector('.navbar-toggler');
-  var closeToggler = document.querySelector('.close-toggler');
-  var navbarNav = document.querySelector('#navbarNav');
+    var navbarToggler = document.querySelector('.navbar-toggler')
+    var closeToggler = document.querySelector('.close-toggler')
+    var navbarNav = document.querySelector('#navbarNav')
 
-  navbarToggler.addEventListener('mousedown', function () {
-      navbarNav.classList.toggle('show');
-  });
+    navbarToggler.addEventListener('mousedown', function () {
+        navbarNav.classList.toggle('show')
+    })
 
-  closeToggler.addEventListener('mousedown', function (event) {
-      event.stopPropagation();
-      navbarNav.classList.remove('show');
-  });
+    closeToggler.addEventListener('mousedown', function (event) {
+        event.stopPropagation()
+        navbarNav.classList.remove('show')
+    })
 
-  var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-  navLinks.forEach(function (link) {
-      link.addEventListener('mousedown', function () {
-          navbarNav.classList.remove('show');
-      });
-  });
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link')
+    navLinks.forEach(function (link) {
+        link.addEventListener('mousedown', function (event) {
 
-  document.addEventListener('mousedown', function (event) {
-      if (event.target !== closeToggler && event.target !== navbarToggler) {
-          navbarNav.classList.remove('show');
-      }
-  });
-});
+            event.stopPropagation()
+
+            navbarNav.classList.remove('show')
+
+            var targetId = link.getAttribute('href').substring(1)
+
+            document.getElementById(targetId).scrollIntoView({
+                behavior: 'smooth'
+            })
+        })
+    })
+
+    document.addEventListener('mousedown', function (event) {
+        if (event.target !== closeToggler && event.target !== navbarToggler) {
+            navbarNav.classList.remove('show')
+        }
+    })
+})
 
