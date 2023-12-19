@@ -195,9 +195,6 @@ nav ul li a:hover::after{
   .btn {
     background-image: linear-gradient(
       to right,
-      #bfefff,
-      #8dd2f3,
-      #5fb4e8,
       #3594dc,
       #1874cd
     );
