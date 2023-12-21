@@ -154,6 +154,12 @@ nav ul li a:hover::after{
     color: gray;
 }
 
+#about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
