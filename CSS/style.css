@@ -168,6 +168,7 @@ nav ul li a:hover::after{
 }
 
 .sous-titre{
+    color: white !important;
     font-size: 60px;
     font-weight: 600;
 }
@@ -255,7 +256,7 @@ nav ul li a:hover::after{
 }
 
 .Blog h4{
-    color:#095bf5;
+    color:#5b5d60;
 }
 
 .Blog img{
