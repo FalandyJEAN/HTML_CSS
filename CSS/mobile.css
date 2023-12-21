@@ -145,7 +145,8 @@ nav ul li.active {
 }
 
 .sous-titre {
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 #profile{
