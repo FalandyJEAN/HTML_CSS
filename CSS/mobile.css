@@ -99,7 +99,7 @@ nav ul li a::after{
 .profile-image {
     margin-bottom: 10px;
     width: 200px;
-    height: 200px;
+    height:100vh;
     border-radius: 50%;
     display: block;
 }
