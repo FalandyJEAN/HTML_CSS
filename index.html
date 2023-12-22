@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="CV de Falandy JEAN">
+    <meta name="description" content="CV de Falandy JEAN"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Mon Portfolio Site Web</title>
 
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/particles.css">
     <link rel="stylesheet" href="CSS/mobile.css" media="screen and (max-width: 768px)">
-    <link rel="stylesheet" href="CSS/tablette.css" media="screen and (min-width: 769px) and (max-width: 1200px)">
+    <link rel="stylesheet" href="CSS/tablette.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
 
     <link rel="shortcut icon" href="IMAGES/letterF.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,16 +31,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <button class="navbar-toggler close-toggler" type="button" aria-label="Close">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <button class="navbar-toggler close-toggler" type="button" aria-label="Close"></button>
                     
                     <ul class="navbar-nav">
                         <div class="navbar-header d-block d-md-none">
-                            <img src="IMAGES/IMG_9261.jpg" alt="Logo" class="navbar-logo profile-image">
+                            <img src="IMAGES/moi.jpg" alt="Logo" class="navbar-logo profile-image">
+                            <h2 id="nom">Falandy Jean</h2>
                         </div>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#header">Home <span class="sr-only"></span></a>
+                            <a class="nav-link" href="#header" id="home">Home <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -49,9 +50,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#projet">Portfolio</a>
                         </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
-                        </li>-->
                         <li class="nav-item">
                             <a class="nav-link" href="#contact1" id="contact">Contact</a>
                         </li>
@@ -63,7 +61,7 @@
                 <div id="info">
                     <h3>Développeur web</h3>
                     <h2 id="animation">Salut, je suis <span>Falandy</span></h2>
-                    <p>Explorateur du monde numérique, passionné par la <span>Tech</span> et la <span>création.</span></p>
+                    <p>Explorateur du monde numérique, passionné par la <span>Tech</span> et l'<span>création.</span></p>
                 </div>
             </div>
         </div>
@@ -72,17 +70,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="IMAGES/IMG_9261.jpg" class="img-fluid rounded data-aos='fade-up'" alt="Photo de profil" id="profile">
+                        <img src="IMAGES/profile-pic-1.jpg" class="img-fluid rounded data-aos='fade-up'" alt="Photo de profil" id="profile">
                     </div>
                     <div class="col-md-6" data-aos='fade-left' data-aos-duration = "1000" id="about-right">
                         <h1 class="sous-titre mt-4 mt-md-0">A Propos de Moi</h1>
                         <p id="texte">
-                            Salut, je suis Falandy, passionné par le développement web et l'utilisation de plateformes no code. Je suis convaincu du pouvoir transformateur de la technologie. 
-                            À travers mes projets, je m'efforce de repousser les limites pour créer des solutions innovantes. <br>
-
-                            Spécialisé dans la conception et le développement de sites web interactifs, j'utilise des technologies 
-                            telles que HTML, CSS et JavaScript. Bien que mon portfolio ne comporte pas actuellement de projets spécifiques, 
-                            il reflète mon engagement et mes compétences techniques.
+                            En tant qu'étudiant passionné d'informatique, je me définis comme un explorateur du monde numérique. Ma fascination 
+                            pour les dernières avancées technologiques m'a conduit à développer des compétences approfondies en programmation, 
+                            notamment avec HTML, CSS et JavaScript.
+                        
+                            <br><br>
+                            Mon champ d'expertise s'étend également à des domaines spécifiques tels que le développement sur Shopify et la c
+                            réation graphique avec Canva. Mon objectif ultime est de devenir indépendant en continuant d'acquérir des 
+                            connaissances pointues.
+                        
+                            <br><br>
+                            Au-delà du code, ma passion pour la création se traduit par ma capacité à concevoir des expériences utilisateur 
+                            exceptionnelles. Mon engagement envers l'apprentissage continu définit ma vision en tant que professionnel de 
+                            la technologie.
                         </p>
                         
                     </div>
@@ -92,37 +97,88 @@
         </div>
 
  <!---------------------------------------------------------------------------Competences------------------------------------------------------------------------------------>
-        
+        <div class="container">
+            <h1 class="sous-titre">Compétences et Expérience</h1>
 
-<!---------------------------------------------------------------Experiences---------------------------------------------------------------------->
-        <div id="experience">
-            <div class="container">
-                <h1 class="sous-titre">Expérience Professionnelle</h1>
-        
-                <!-- Première expérience -->
-                <div class="Blog" data-aos='fade-up'>
-                    <h2>Coordinnateur Startups Hult - Hult Prize ESIH</h2>
-                    <p>Octobre 2023 - a nos jours</p>
-                    <p>Mon rôle est d'accompagner les entrepreneurs en termes de communication et de faire en sorte qu'ils vivent la meilleure expérience possible lors de ce concours à l'ESIH !</p>
+            <div class="row" id="competenceExperience">
+
+                <!-- Colonne Compétences -->
+                <div class="col-md-6">
+                    <div class="Body-list">
+                        <div class="card text-gray bg-light mb-3">
+                            <div class="card-body">
+
+                                <p class="h4"><b><i class="fa fa-cogs fa-fw mr-2 text-teal"></i>Compétences</b></p>
+
+                                <div class="Skill-item">
+                                    <p>HTML/CSS</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-green" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                </div>
+
+                                <div class="Skill-item">
+                                    <p>JavaScript</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-green" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                    </div>
+                                </div>
+
+                                <div class="Skill-item">
+                                    <p>MongoDB</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-green" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </div>
+
+                                <div class="Skill-item">
+                                    <p>Express.JS</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-green" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><br>
+                    </div>
                 </div>
-        
-                <!-- Deuxième expérience -->
-                <div class="Blog" data-aos='fade-up'>
-                    <h2>Assistant Informatique Stage - Food For The Poor</h2>
-                    <p>Juillet 2023 - Septembre 2023</p>
-                    <p>Support technique · Système de noms de domaine (DNS) · Microsoft Outlook · Service client · Développement web · Gestion des services informatiques</p>
+
+                <!-- Colonne Expérience Professionnelle -->
+                <div class="col-md-6" id="experience">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h2 class="h4"><i class="fa fa-suitcase fa-fw mr-2 text-teal"></i>Expérience Professionnelle</h2>
+
+                            <div data-aos='fade-right' data-aos-duration="1100">
+                                <h5 class="h6"><b>Coordinnateur Startups Hult - Hult Prize ESIH</b></h5>
+                                <h6 class="text-teal"><i class="fa fa-calendar fa-fw mr-1"></i>Octobre 2023 - <span class="badge badge-pill badge-teal">A nos jours</span></h6>
+                                <p>Mon rôle est d'accompagner les entrepreneurs en termes de communication et de faire en sorte qu'ils vivent la meilleure expérience possible lors de ce concours à l'ESIH !</p>
+                                <hr>
+                            </div>
+
+                            <div data-aos='fade-right' data-aos-duration="1100">
+                                <h5 class="h6"><b>Assistant Informatique Stage - Food For The Poor</b></h5>
+                                <h6 class="text-teal"><i class="fa fa-calendar fa-fw mr-1"></i>Juillet 2023 - Septembre 2023</h6>
+                                <p>Support technique · Système de noms de domaine (DNS) · Microsoft Outlook · Service client · Développement web · Gestion des services informatiques</p>
+                                <hr>
+                            </div>
+
+                            <div data-aos='fade-right' data-aos-duration="1100">
+                                <h5 class="h6"><b>Graphic Designer / designsomething.com</b></h5>
+                                <h6 class="text-teal"><i class="fa fa-calendar fa-fw mr-1"></i>Jun 2010 - Mar 2012</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-        
-                <!-- Ajoutez d'autres expériences au besoin -->
-        
             </div>
         </div>
 <!----------------------------------------------------------------------------Services----------------------------------------------------------------------------------->
         <div id="service">
             <div class="container">
                 <h1 class="sous-titre">Services</h1>
-                <div class="services-list" data-aos-duration = "1100">
-                    <div data-aos='fade-right'>
+                <div class="services-list">
+                    <div data-aos='fade-right' data-aos-duration = "1100">
                         <i class="fa-solid fa-code"></i>
                         <h2>Creation de Site Web</h2>
                         <p>Je crée des sites web uniques et personnalisés en fonction des besoins et des objectifs de mes clients. Chaque site est conçu avec une attention particulière aux détails, à l'esthétique et à l'expérience utilisateur.</p>
@@ -157,7 +213,7 @@
                             <div class="layer">
                                 <h2>Dessiner sur un tableau interactif</h2>
                                 <p>Ajustez la taille du pinceau avec le curseur correspondant. Choisissez une couleur en utilisant la palette ou activez le mode arc-en-ciel. Commencez à dessiner en survolant les cellules du tableau avec la souris. </p>
-                                <a href="https://falandyjean.github.io/Etch-A-Sketch/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/Etch-A-Sketch/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
@@ -167,7 +223,7 @@
                             <div class="layer">
                                 <h2>Jeu Roche-Papier-Ciseaux</h2>
                                 <p>Ciseaux Saga offre une expérience ludique du célèbre jeu de roche-papier-ciseaux. Affrontez l'ordinateur, choisissez votre arme avec soin et remportez des victoires épiques pour devenir le maître de Ciseaux Saga.</p>
-                                <a href="https://falandyjean.github.io/Ciseaux-Sagas/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/Ciseaux-Sagas/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
@@ -177,7 +233,7 @@
                             <div class="layer">
                                 <h2>Les tendances technologiques à surveiller</h2>
                                 <p>Découvrez les dernières tendances technologiques avec FineTech, mon Blog.</p>
-                                <a href="https://falandyjean.github.io/FineTech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/FineTech/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
@@ -187,7 +243,7 @@
                             <div class="layer">
                                 <h2>Un jeu de saisie</h2>
                                 <p>Découvrez la frénésie de la saisie dans ce jeu captivant ! Améliorez également votre orthographe tout en relevant ce défi stimulant.</p>
-                                <a href="https://falandyjean.github.io/AzerType/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/AzerType/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
@@ -197,7 +253,7 @@
                             <div class="layer">
                                 <h2>Une calculatrice faite avec HTML/CSS et Javascript</h2>
                                 <p>Explorez une réalisation exceptionnelle qui témoigne de mes compétences avancées en JavaScript côté client.</p>
-                                <a href="https://falandyjean.github.io/Calculatrice/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/Calculatrice/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
 
@@ -207,7 +263,7 @@
                             <div class="layer">
                                 <h2>Un generateur de pseudo</h2>
                                 <p>Découvrez mon générateur de pseudonymes personnalisé ! Une création unique qui vous permet d'exprimer votre individualité en ligne. </p>
-                                <a href="https://falandyjean.github.io/GenerateurPseudo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://falandyjean.github.io/GenerateurPseudo/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
                     </div>
@@ -219,7 +275,7 @@
         <div id="contact1">
             <div class="container">
                 <div class="row">
-                    <div class="contact-left" data-aos='fade-up' data-aos-duration="1200">
+                    <div class="contact-left Blog" data-aos='fade-up' data-aos-duration="1200">
                         <h1 class="sous-titre">Contactez-Moi</h1>
                         <p>
                             <i class="fa-solid fa-paper-plane"></i>
@@ -237,7 +293,7 @@
                         </div>
                         <a href="IMAGES/Cv1-Falandy.pdf" download class="btn btn2">Téléchargez mon CV</a>
                     </div>
-                    <div class="contact-right" data-aos='fade-up'>
+                    <div class="contact-right col-md-6" data-aos='fade-up'>
                         <form name="submit-to-google-sheet">
                             <input type="text" name="Nom" placeholder="Nom" required>
                             <input type="text" name="Prenom" placeholder="Prenom" required>

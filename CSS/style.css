@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@800&family=Raleway:wght@300;500;600&family=Shadows+Into+Light&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: white;
-}
-
 h1{
     color:#095bf5 !important;
 }
@@ -20,7 +17,7 @@ h1{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(../IMAGES/profile-pic.png);
+    background-image: url(../IMAGES/profile-pic-2.png);
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: 820px;
@@ -74,7 +71,7 @@ nav ul li a{
     position: relative;
 }
 
-nav li a #contact{
+nav ul li a #contact{
     color:white;
 }
 
@@ -168,22 +165,37 @@ nav ul li a:hover::after{
 
 .col-md-6 img{
     margin-top: 7px;
-    height:450px;
+    min-height:500px;
     width: 350px;
     right: 0;
 }
 
 .sous-titre{
     color: white !important;
-    font-size: 60px;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*----------------------------------------------------competences-------------------------------------------------------*/
+#competenceExperience{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    color: gray;
+    border-radius: 10px;
+}
+
+#experience{
+    margin-top: 20px;
+    color:rgba(0, 0, 0, 0.6);
+}
 
 
-
-
+#experience h2{
+    margin-bottom: 40px;
+}
 
 
 /* --------------------------------------------------------services-------------------------------------------------- */
@@ -350,6 +362,7 @@ nav ul li a:hover::after{
 
 .contact-right{
     flex-basis: 60%;
+    margin-top: 100px;
 }
 
 .contact-left p{
@@ -390,7 +403,7 @@ a{
 }
 
 .contact-right form{
-    width: 100;
+    width: 100%;
 }
 
 form input, form textarea{

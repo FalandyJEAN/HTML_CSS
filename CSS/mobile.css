@@ -1,7 +1,7 @@
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("../IMAGES/profile-pic.png");
+    background-image: url("../IMAGES/profile-pic-2.png");
     background-size: 80%;
     background-position: center;
     background-position-y: 100px;
@@ -13,11 +13,9 @@ body {
     box-sizing: border-box;
 }
 
-nav ul li a {
-    color: white !important;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bolder;
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -53,53 +51,58 @@ div #info {
     font-size: 18px;
 }
 nav ul {
-    background: #2596be;
+	background:#111;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     height: 102vh;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    transition: all 0.5s ease;
-}
-
-nav ul.show {
-    height: 100vh;
-    flex-direction: column;
-    padding-top: 80px;
-}
-
-nav ul li {
-    margin: 10px;
+    transition: all 0.7s ease;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: larger;
-    font-weight: bold;
+    font-size:x-large !important;
+    font-weight: bold !important;
+    padding: 0 !important;
 }
 
 nav ul li a::after{
-    background: white;
-    border-bottom: 2px solid white;
+    background:none;
+    border-bottom: none;
 
 }
 
 .navbar-header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
 }
 
 .profile-image {
-    margin-bottom: 10px;
-    border-radius: 50%;
+    width: 100%;
     display: block;
+}
+
+#nom{
+    font-weight: bolder;
+    padding: 5px 10px;
+    color: gray;
+    border-bottom: 7px solid gray;
+}
+
+#home{
+    display: none;
+}
+
+.container ul #contact{
+    padding: 0;
+    border-radius:0;
+    font-weight:normal;
+    background:none;
+    color:gray !important;
 }
 
 .navbar-toggler.close-toggler {
@@ -125,12 +128,6 @@ nav ul li a::after{
 .navbar-nav.show + .close-toggler {
     display: block;
 }
-
-nav ul li.active {
-    border-bottom: 2px solid white;
-}
-
-
 
 .container {
     padding: 6px 8px;
