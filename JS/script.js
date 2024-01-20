@@ -13,25 +13,6 @@ function opentab(e, tabname){
 }
 
 
-const scriptURL ="https://script.google.com/macros/s/AKfycbzx9I7ZTvcytyQj62-mdyRasVqw5biT3kOJDEGWNeAWpUM74r7yLSnhHzWEiZy2T45fCw/exec"
-const form = document.forms['submit-to-google-sheet']
-const msg = document.querySelector(".msg")
-
-form.addEventListener('submit', e => {
-e.preventDefault()
-fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-form.reset()
-setTimeout(function() {
-    msg.textContent = ""
-    msg.style.display = 'none'; })
-    .then(response =>{
-        (function(){
-            msg.innerHTML = ""
-        },5000)
-    })
-})
-
-
 function scrollToTop() {
     window.scrollTo({
       top: 0,

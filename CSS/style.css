@@ -181,15 +181,13 @@ nav ul li a:hover::after{
 #competenceExperience{
     display: flex;
     align-items: center;
-    background-color: white;
-    color: rgba(0, 0, 0, 0.6);
-    color: gray;
+    border: 5px solid white;
+    color: white;
     border-radius: 10px;
 }
 
 #experience{
     margin-top: 20px;
-    color:rgba(0, 0, 0, 0.6);
 }
 
 
